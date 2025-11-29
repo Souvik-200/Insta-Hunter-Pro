@@ -1,0 +1,7 @@
+instaloader
+tabulate
+colorama
+fpdf2
+requests
+pillow
+qrcode
