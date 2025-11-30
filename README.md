@@ -53,6 +53,21 @@ cd ~/path/to/OSINT_IG # macOS / Linux
 Run the tool
 python ig_osint.py #[vscode terminal]
 
+# KALI LINUX SETUP 
+git clone https://github.com/Souvik-200/Insta-Hunter-Pro.git
+cd Insta-Hunter-Pro
+
+# Activate the Virtual Environment
+python3 -m venv .venv
+source .venv/bin/activate
+
+# Install Requirements Inside Virtual Environment
+pip install -r requirements.txt
+
+# Run the Tool
+python3 ig_osint.py
+
+
 > ⚠️ **IMPORTANT WARNING – READ BEFORE USING**
 
 Using this tool to send **too many requests to Instagram** (such as repeated metadata scans, automated profile scraping, or continuous downloading of posts/reels) may trigger Instagram’s **rate-limiting, temporary bans, security challenges, or permanent access blocks.**
